@@ -1,0 +1,8 @@
+{
+    "input": "Sebutkan kota kota di jawa barat.",
+    "outputs": [
+      {"text": "Bandung, Bogor, Bekasi", "rank": 2},
+      {"text": "Bandung", "rank": 1},
+      {"text": "Jakarta", "rank": 0}
+    ]
+  }
