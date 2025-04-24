@@ -1,8 +1,24 @@
 {
-    "input": "Sebutkan kota kota di jawa barat.",
-    "outputs": [
-      {"text": "Bandung, Bogor, Bekasi", "rank": 2},
-      {"text": "Bandung", "rank": 1},
-      {"text": "Jakarta", "rank": 0}
-    ]
-  }
+  "input": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Apakah ada diskon untuk langganan tahunan?"
+      }
+    ],
+    "tools": [],
+    "parallel_tool_calls": true
+  },
+  "preferred_output": [
+    {
+      "role": "assistant",
+      "content": "Ya, kami menyediakan diskon sebesar 10% apabila Anda memilih langganan tahunan. Untuk informasi lebih mendetail mengenai harga dan ketentuan diskon, silakan kunjungi situs kami atau hubungi layanan pelanggan."
+    }
+  ],
+  "non_preferred_output": [
+    {
+      "role": "assistant",
+      "content": "Ada diskon 10% untuk langganan tahunan."
+    }
+  ]
+}
